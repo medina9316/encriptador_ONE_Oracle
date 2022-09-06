@@ -46,6 +46,7 @@ function desencriptar(stringEncriptada){
 
 function copiar(){
     mensaje.select();
+    mensaje.setSelectionRange(0, 99999); // For mobile devices
     navigator.clipboard.writeText(mensaje.value);
     mensaje.value="";
     mensaje.style.backgroundImage = "";

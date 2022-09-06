@@ -209,6 +209,7 @@ main{
 }
 .textin{
     width: 100%;
+    text-align: center;
 }
 .divtextin{
     text-align: center;
@@ -220,13 +221,15 @@ main{
 
 .divtextadvice{
     width: auto;
+    display: inline-flex;
+    margin: auto;
 }
 .textadvice{
     width: auto;
 }
 .buttons{
     width: auto;
-
+    margin: auto;
 }
 
 .button_desencriptar{
