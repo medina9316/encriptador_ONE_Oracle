@@ -46,10 +46,9 @@ function desencriptar(stringEncriptada){
 
 function copiar(){
     mensaje.select();
-    mensaje.setSelectionRange(0, 99999); // For mobile devices
     navigator.clipboard.writeText(mensaje.value);
+    mensaje.setSelectionRange(0, 99999); // For mobile devices
     mensaje.value="";
     mensaje.style.backgroundImage = "";
-    alert("Texto copiado a Portapapeles")
 }
 
